@@ -1,0 +1,8 @@
+* { 
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+
+    background-color: black; /* Establece el color de fondo a negro */
+    color: white; /* Establece el color del texto a blanco */
+    padding: 20px; /* Agrega un poco de espacio dentro del div */
+}

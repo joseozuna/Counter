@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center h-screen">
+    <main class="bg-white p-8 rounded-lg shadow-md text-center">
+      <div class="container">
+        <h1 class="text-3xl font-bold mb-4">Counter</h1>
+        <span id="value" class="text-2xl text-blue-500">0</span>
+        <div class="button-container mt-6 space-x-4">
+          <button class="btn decrease bg-red-500 text-white px-4 py-2 rounded-lg">decrease</button>
+          <button class="btn reset bg-gray-500 text-white px-4 py-2 rounded-lg">reset</button>
+          <button class="btn increase bg-green-500 text-white px-4 py-2 rounded-lg">increase</button>
+        </div>
+      </div>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
